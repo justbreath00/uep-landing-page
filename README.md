@@ -24,42 +24,12 @@ This project was developed **for academic purposes** as part of the subject:
 
 **Systems Integration and Architecture 1**
 
-under the supervision of:
+under the supervision of my course professor:
 
-**RAYMARK UDAN**
-
----
-
-## Features
-
-* University-style landing page
-* Full-width hero section
-* UEP building background image
-* About UEP section
-* Mission and Vision section
-* Academic Programs section
-* University Highlights
-* Campus Life section
-* Contact Information
-* Responsive design
-* Reusable Blade header and footer
-* Shared CSS styling
-* Dynamic copyright year using Blade
-* Solid maroon and dark color scheme
-* No gradients
+sir **RAYMARK UDAN**
 
 ---
 
-## Technologies
-
-* Laravel
-* PHP
-* Blade
-* HTML5
-* CSS3
-* Vite
-
----
 
 ## Project Structure
 
@@ -68,17 +38,20 @@ resources/
 ├── views/
 │   ├── layouts/
 │   │   └── app.blade.php
-│   ├── components/
+│   ├── partials/
 │   │   ├── header.blade.php
 │   │   └── footer.blade.php
-│   └── welcome.blade.php
+│   └── home.blade.php
 │
 └── css/
-    └── app.css
+    ├── app.css
+    └── page.css
+
 
 public/
 └── images/
-    └── uep-building.jpg
+    ├── uep-building.jpg
+    └── uep-logo.png
 ```
 
 ---
@@ -120,48 +93,6 @@ The website follows a traditional university-inspired design using a simple and 
 
 The design uses solid colors instead of gradients to maintain a professional academic appearance.
 
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone <repository-url>
-cd uep-landing-page
-```
-
-Install PHP dependencies:
-
-```bash
-composer install
-```
-
-Install frontend dependencies:
-
-```bash
-npm install
-```
-
-Create the environment file:
-
-```bash
-cp .env.example .env
-```
-
-Generate the application key:
-
-```bash
-php artisan key:generate
-```
-
-Run Vite:
-
-```bash
-npm run dev
-```
-
-Then run the Laravel application using your preferred local development environment.
 
 ---
 
