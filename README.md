@@ -1,58 +1,222 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# University of Eastern Pangasinan Landing Page
 
-## About Laravel
+### Systems Integration and Architecture 1
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
+![Blade](https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## About
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The **University of Eastern Pangasinan Landing Page** is a responsive university website built using Laravel Blade, Vite, HTML, and CSS.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The website presents information about UEP, including its history, mission and vision, academic programs, campus life, university highlights, and contact information.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+This project was developed **for academic purposes** as part of the subject:
 
-## Agentic Development
+**Systems Integration and Architecture 1**
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+under the supervision of:
 
-```bash
-composer require laravel/boost --dev
+**RAYMARK UDAN**
 
-php artisan boost:install
+---
+
+## Features
+
+* University-style landing page
+* Full-width hero section
+* UEP building background image
+* About UEP section
+* Mission and Vision section
+* Academic Programs section
+* University Highlights
+* Campus Life section
+* Contact Information
+* Responsive design
+* Reusable Blade header and footer
+* Shared CSS styling
+* Dynamic copyright year using Blade
+* Solid maroon and dark color scheme
+* No gradients
+
+---
+
+## Technologies
+
+* Laravel
+* PHP
+* Blade
+* HTML5
+* CSS3
+* Vite
+
+---
+
+## Project Structure
+
+```text
+resources/
+├── views/
+│   ├── layouts/
+│   │   └── app.blade.php
+│   ├── components/
+│   │   ├── header.blade.php
+│   │   └── footer.blade.php
+│   └── welcome.blade.php
+│
+└── css/
+    └── app.css
+
+public/
+└── images/
+    └── uep-building.jpg
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
 
-## Contributing
+## Screenshots
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Header
 
-## Code of Conduct
+![UEP Landing Page Header](screenshots/header.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### About UEP
 
-## Security Vulnerabilities
+![About UEP](screenshots/about.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Mission and Vision
 
-## License
+![Mission and Vision](screenshots/mission-vision.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Contact
+
+![Contact Section](screenshots/contact.png)
+
+### Footer
+
+![UEP Landing Page Footer](screenshots/footer.png)
+
+---
+
+## Design
+
+The website follows a traditional university-inspired design using a simple and formal color palette.
+
+| Color          | Hex       |
+| -------------- | --------- |
+| Primary Maroon | `#7A1725` |
+| Dark           | `#1F1F1F` |
+| White          | `#FFFFFF` |
+| Light Gray     | `#F5F5F5` |
+
+The design uses solid colors instead of gradients to maintain a professional academic appearance.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd uep-landing-page
+```
+
+Install PHP dependencies:
+
+```bash
+composer install
+```
+
+Install frontend dependencies:
+
+```bash
+npm install
+```
+
+Create the environment file:
+
+```bash
+cp .env.example .env
+```
+
+Generate the application key:
+
+```bash
+php artisan key:generate
+```
+
+Run Vite:
+
+```bash
+npm run dev
+```
+
+Then run the Laravel application using your preferred local development environment.
+
+---
+
+## Blade Structure
+
+The main layout uses reusable header and footer components:
+
+```blade
+@include('components.header')
+
+@yield('content')
+
+@include('components.footer')
+```
+
+The landing page extends the main layout:
+
+```blade
+@extends('layouts.app')
+
+@section('title', 'UEP Landing Page')
+
+@section('content')
+    ...
+@endsection
+```
+
+The footer automatically displays the current year:
+
+```blade
+{{ date('Y') }}
+```
+
+---
+
+## Academic Information
+
+**Subject:** Systems Integration and Architecture 1
+
+**Purpose:** Academic Project
+
+**Supervisor:** RAYMARK UDAN
+
+**Institution:** University of Eastern Pangasinan
+
+---
+
+## Author
+
+<div align="center">
+
+### Renier Jhon
+
+Bachelor of Science in Information Technology
+
+University of Eastern Pangasinan
+
+</div>
