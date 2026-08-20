@@ -93,39 +93,6 @@ The website follows a traditional university-inspired design using a simple and 
 
 The design uses solid colors instead of gradients to maintain a professional academic appearance.
 
-
----
-
-## Blade Structure
-
-The main layout uses reusable header and footer components:
-
-```blade
-@include('components.header')
-
-@yield('content')
-
-@include('components.footer')
-```
-
-The landing page extends the main layout:
-
-```blade
-@extends('layouts.app')
-
-@section('title', 'UEP Landing Page')
-
-@section('content')
-    ...
-@endsection
-```
-
-The footer automatically displays the current year:
-
-```blade
-{{ date('Y') }}
-```
-
 ---
 
 ## Academic Information
