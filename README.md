@@ -2,6 +2,7 @@
 
 # University of Eastern Pangasinan Landing Page
 
+
 ### Systems Integration and Architecture 1
 
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
